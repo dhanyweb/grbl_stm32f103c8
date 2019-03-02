@@ -1,8 +1,20 @@
 ![GitHub Logo](https://github.com/gnea/gnea-Media/blob/master/Grbl%20Logo/Grbl%20Logo%20250px.png?raw=true)
 
+# grbl on STM32F103C8
+
+This is grbl project adapted for STM32F103C8 Blue Pill boards. 
+
+_Click the [Release](https://github.com/djabi/grbl_stm32f103c8/releases) tab to download pre-compiled `.bin` files_
+
+For building the binary image, instruction how to write the image to a board or default board pinout see the wiki page.
+
+This is fork of https://github.com/usbcnc/grbl project that now appears to be inactive.
+
+
 ***
-_Click the `Release` tab to download pre-compiled `.hex` files or just [click here](https://github.com/gnea/grbl/releases)_
-***
+
+## The original Grbl Readme
+
 Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. This version of Grbl runs on an Arduino with a 328p processor (Uno, Duemilanove, Nano, Micro, etc).
 
 The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
